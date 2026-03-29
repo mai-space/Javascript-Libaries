@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "build": "vite build",
-    "build:fullcalendar": "vite build --config vite.fullcalendar.config.js"
+    "build:fullcalendar": "vite build --config vite.fullcalendar.config.js",
+    "build:micromodal": "vite build --config vite.micromodal.config.js"
   },
   "devDependencies": {
     "vite": "^6.0.0"
@@ -12,9 +13,10 @@
   "dependencies": {
     "@fullcalendar/core": "^6.1.15",
     "@fullcalendar/daygrid": "^6.1.15",
-    "@fullcalendar/timegrid": "^6.1.15",
-    "@fullcalendar/list": "^6.1.15",
     "@fullcalendar/interaction": "^6.1.15",
-    "@fullcalendar/multimonth": "^6.1.15"
+    "@fullcalendar/list": "^6.1.15",
+    "@fullcalendar/multimonth": "^6.1.15",
+    "@fullcalendar/timegrid": "^6.1.15",
+    "micromodal": "^0.6.1"
   }
 }
