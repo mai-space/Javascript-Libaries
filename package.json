@@ -12,7 +12,8 @@
     "build:aos": "vite build --config vite.aos.config.js",
     "build:solid-toast": "vite build --config vite.solid-toast.config.js",
     "build:zod-form-validation": "vite build --config vite.zod-form-validation.config.js",
-    "build:axios": "vite build --config vite.axios.config.js"
+    "build:axios": "vite build --config vite.axios.config.js",
+    "build:altcha": "vite build --config vite.altcha.config.js"
   },
   "devDependencies": {
     "vite": "^6.0.0",
@@ -26,6 +27,7 @@
     "@fullcalendar/multimonth": "^6.1.15",
     "@fullcalendar/timegrid": "^6.1.15",
     "@splidejs/splide": "^4.1.4",
+    "altcha": "^2.3.0",
     "aos": "^2.3.4",
     "axios": "^1.14.0",
     "leaflet": "^1.9.4",
