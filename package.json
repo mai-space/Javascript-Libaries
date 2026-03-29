@@ -5,7 +5,8 @@
   "scripts": {
     "build": "vite build",
     "build:fullcalendar": "vite build --config vite.fullcalendar.config.js",
-    "build:micromodal": "vite build --config vite.micromodal.config.js"
+    "build:micromodal": "vite build --config vite.micromodal.config.js",
+    "build:splide": "vite build --config vite.splide.config.js"
   },
   "devDependencies": {
     "vite": "^6.0.0"
@@ -17,6 +18,7 @@
     "@fullcalendar/list": "^6.1.15",
     "@fullcalendar/multimonth": "^6.1.15",
     "@fullcalendar/timegrid": "^6.1.15",
+    "@splidejs/splide": "^4.1.4",
     "micromodal": "^0.6.1"
   }
 }
