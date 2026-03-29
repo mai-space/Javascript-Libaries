@@ -15,7 +15,8 @@
     "build:axios": "vite build --config vite.axios.config.js",
     "build:altcha": "vite build --config vite.altcha.config.js",
     "build:lodash": "vite build --config vite.lodash.config.js",
-    "build:accessible-menu": "vite build --config vite.accessible-menu.config.js"
+    "build:accessible-menu": "vite build --config vite.accessible-menu.config.js",
+    "build:notyf": "vite build --config vite.notyf.config.js"
   },
   "devDependencies": {
     "vite": "^6.0.0",
@@ -36,6 +37,7 @@
     "leaflet": "^1.9.4",
     "lodash": "^4.17.23",
     "micromodal": "^0.6.1",
+    "notyf": "^3.10.0",
     "photoswipe": "^5.4.4",
     "solid-js": "^1.9.12",
     "solid-toast": "^0.5.0",
