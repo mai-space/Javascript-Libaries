@@ -8,7 +8,8 @@
     "build:micromodal": "vite build --config vite.micromodal.config.js",
     "build:splide": "vite build --config vite.splide.config.js",
     "build:photoswipe": "vite build --config vite.photoswipe.config.js",
-    "build:leaflet": "vite build --config vite.leaflet.config.js"
+    "build:leaflet": "vite build --config vite.leaflet.config.js",
+    "build:aos": "vite build --config vite.aos.config.js"
   },
   "devDependencies": {
     "vite": "^6.0.0"
@@ -21,6 +22,7 @@
     "@fullcalendar/multimonth": "^6.1.15",
     "@fullcalendar/timegrid": "^6.1.15",
     "@splidejs/splide": "^4.1.4",
+    "aos": "^2.3.4",
     "leaflet": "^1.9.4",
     "micromodal": "^0.6.1",
     "photoswipe": "^5.4.4"
