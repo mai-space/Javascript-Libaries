@@ -19,8 +19,7 @@
     "build:notyf": "vite build --config vite.notyf.config.js"
   },
   "devDependencies": {
-    "vite": "^6.0.0",
-    "vite-plugin-solid": "^2.11.11"
+    "vite": "^6.0.0"
   },
   "dependencies": {
     "@fullcalendar/core": "^6.1.15",
@@ -39,8 +38,6 @@
     "micromodal": "^0.6.1",
     "notyf": "^3.10.0",
     "photoswipe": "^5.4.4",
-    "solid-js": "^1.9.12",
-    "solid-toast": "^0.5.0",
     "zod": "^4.3.6"
   }
 }
