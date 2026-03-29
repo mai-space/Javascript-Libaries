@@ -20,7 +20,8 @@
     "build:flatpickr": "vite build --config vite.flatpickr.config.js",
     "build:tom-select": "vite build --config vite.tom-select.config.js",
     "build:sortablejs": "vite build --config vite.sortablejs.config.js",
-    "build:cookieconsent": "vite build --config vite.cookieconsent.config.js"
+    "build:cookieconsent": "vite build --config vite.cookieconsent.config.js",
+    "build:filepond": "vite build --config vite.filepond.config.js"
   },
   "devDependencies": {
     "vite": "^6.0.0"
@@ -37,6 +38,7 @@
     "altcha": "^2.3.0",
     "aos": "^2.3.4",
     "axios": "^1.14.0",
+    "filepond": "^4.32.12",
     "flatpickr": "^4.6.13",
     "leaflet": "^1.9.4",
     "lodash": "^4.17.23",
