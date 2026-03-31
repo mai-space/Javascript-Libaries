@@ -23,7 +23,8 @@
     "build:cookieconsent": "vite build --config vite.cookieconsent.config.js",
     "build:filepond": "vite build --config vite.filepond.config.js",
     "build:masonry": "vite build --config vite.masonry.config.js",
-    "build:vanilla-marquee": "vite build --config vite.vanilla-marquee.config.js"
+    "build:vanilla-marquee": "vite build --config vite.vanilla-marquee.config.js",
+    "build:lenis": "vite build --config vite.lenis.config.js"
   },
   "devDependencies": {
     "vite": "^6.0.0"
@@ -43,6 +44,7 @@
     "filepond": "^4.32.12",
     "flatpickr": "^4.6.13",
     "leaflet": "^1.9.4",
+    "lenis": "^1.3.21",
     "lodash": "^4.17.23",
     "masonry-layout": "^4.2.2",
     "micromodal": "^0.6.1",
